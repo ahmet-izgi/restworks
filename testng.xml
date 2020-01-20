@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="payworks.rest.Automation">
+	<test name="YaddressTests">
+		<classes>
+			<class name="payworks.rest.Automation.test.AppTest">
+				<methods>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

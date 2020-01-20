@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-20T02:35:30 EET" name="Default suite" finished-at="2020-01-20T02:35:35 EET" duration-ms="5242">
+    <groups>
+    </groups>
+    <test started-at="2020-01-20T02:35:30 EET" name="Default test" finished-at="2020-01-20T02:35:35 EET" duration-ms="5242">
+      <class name="payworks.rest.Automation.AppTest">
+        <test-method is-config="true" signature="initSpec()[pri:0, instance:payworks.rest.Automation.AppTest@79b06cab]" started-at="2020-01-20T02:35:30 EET" name="initSpec" finished-at="2020-01-20T02:35:31 EET" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSpec -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.AppTest@79b06cab]" started-at="2020-01-20T02:35:31 EET" name="test" data-provider="api-data-provider" finished-at="2020-01-20T02:35:33 EET" duration-ms="2007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0001_ExactAddress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[506 Fourth Avenue Unit 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Asbury Prk NJ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO_ERROR]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[EXACT_ADDRESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.AppTest@79b06cab]" started-at="2020-01-20T02:35:33 EET" name="test" data-provider="api-data-provider" finished-at="2020-01-20T02:35:33 EET" duration-ms="613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0002_invalidFormat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[506 Fourth Avenue Unit 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[INVALID_FORMAT]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[LOCATION_NOT_DETERMINED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.AppTest@79b06cab]" started-at="2020-01-20T02:35:33 EET" name="test" data-provider="api-data-provider" finished-at="2020-01-20T02:35:34 EET" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0003_noSuchHouseNumberInStreet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[506 Avenue Unit 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Asbury Prk NJ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO_SUCH_HOUSE_NUMBER_IN_STREET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[NEAREST_STREET_BLOCK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.AppTest@79b06cab]" started-at="2020-01-20T02:35:34 EET" name="test" data-provider="api-data-provider" finished-at="2020-01-20T02:35:34 EET" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0004_correctAddressCityCenterTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Asbury Prk NJ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO_ERROR]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CITY_CENTER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.AppTest@79b06cab]" started-at="2020-01-20T02:35:34 EET" name="test" data-provider="api-data-provider" finished-at="2020-01-20T02:35:35 EET" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0005_streetNotFoundInZipCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Asbury Prk NJ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[STREET_NOT_FOUND_IN_ZIP_OR_CITY]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CITY_CENTER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.AppTest@79b06cab]" started-at="2020-01-20T02:35:35 EET" name="test" data-provider="api-data-provider" finished-at="2020-01-20T02:35:35 EET" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0006_cityNotFoundInState]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[506 Avenue Unit 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hams NJ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CITY_NOT_FOUND]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CENTER_OF_STATE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- payworks.rest.Automation.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
