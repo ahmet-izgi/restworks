@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="payworks.rest.Automation.AppTest">
+      <class name="payworks.rest.Automation.test.AppTest">
         <methods>
-          <include name="test" invocation-numbers="4"/>
+          <include name="yaddressGet" invocation-numbers="6"/>
           <include name="initSpec"/>
         </methods>
-      </class> <!-- payworks.rest.Automation.AppTest -->
+      </class> <!-- payworks.rest.Automation.test.AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
