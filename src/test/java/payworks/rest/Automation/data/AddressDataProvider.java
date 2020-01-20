@@ -16,7 +16,7 @@ import payworks.rest.Automation.AddressEnums.GeoPrecision;
  * testParameters[0][4] = ErrorCode of the response data; 
  * testParameters[0][5] = GeoPrecision of the response data;
  *
- * Instead of filling array within this class, we can use text files for importing
+ * Instead of filling array within this class, we can use text/csv files for importing
  * data dynamically
  *
  * @author ahmetizgi
