@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/ahmet-izgi/restworks.svg?style=svg)](https://circleci.com/gh/ahmet-izgi/restworks)
+
 # YAddress REST API tests
 
 Automated tests prepared with Java, Rest Assured, TestNG, DataProvider, CircleCI.
