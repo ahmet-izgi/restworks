@@ -68,7 +68,7 @@ public class AddressDataProvider {
 		testParameters[5][4] = ErrorCode.CITY_NOT_FOUND;
 		testParameters[5][5] = GeoPrecision.CENTER_OF_STATE;
 
-		testParameters[6][0] = "0007_cityNotFoundInState";
+		testParameters[6][0] = "0007_invalidFormatWithEmptyParams";
 		testParameters[6][1] = "";
 		testParameters[6][2] = "";
 		testParameters[6][3] = "";
