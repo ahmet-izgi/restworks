@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-20T23:26:26 EET" name="Default suite" finished-at="2020-01-20T23:26:32 EET" duration-ms="6067">
+  <suite started-at="2020-01-20T23:50:56 EET" name="Default suite" finished-at="2020-01-20T23:51:02 EET" duration-ms="6599">
     <groups>
     </groups>
-    <test started-at="2020-01-20T23:26:26 EET" name="Default test" finished-at="2020-01-20T23:26:32 EET" duration-ms="6067">
+    <test started-at="2020-01-20T23:50:56 EET" name="Default test" finished-at="2020-01-20T23:51:02 EET" duration-ms="6599">
       <class name="payworks.rest.Automation.test.AppTest">
-        <test-method is-config="true" signature="initSpec()[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:26:26 EET" name="initSpec" finished-at="2020-01-20T23:26:27 EET" duration-ms="840" status="PASS">
+        <test-method is-config="true" signature="initSpec()[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:50:56 EET" name="initSpec" finished-at="2020-01-20T23:50:57 EET" duration-ms="1032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initSpec -->
-        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:26:27 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:26:29 EET" duration-ms="2127" status="PASS">
+        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:50:57 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:50:59 EET" duration-ms="2108" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yaddressGet -->
-        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:26:29 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:26:29 EET" duration-ms="613" status="PASS">
+        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:50:59 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:50:59 EET" duration-ms="511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yaddressGet -->
-        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:26:29 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:26:30 EET" duration-ms="508" status="PASS">
+        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:50:59 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:51:00 EET" duration-ms="608" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yaddressGet -->
-        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:26:30 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:26:30 EET" duration-ms="463" status="PASS">
+        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:51:00 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:51:00 EET" duration-ms="446" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yaddressGet -->
-        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:26:30 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:26:31 EET" duration-ms="547" status="PASS">
+        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:51:00 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:51:01 EET" duration-ms="440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yaddressGet -->
-        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:26:31 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:26:31 EET" duration-ms="444" status="PASS">
+        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:51:01 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:51:01 EET" duration-ms="462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,7 +227,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yaddressGet -->
-        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:26:31 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:26:32 EET" duration-ms="449" status="FAIL">
+        <test-method signature="yaddressGet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, payworks.rest.Automation.AddressEnums$ErrorCode, payworks.rest.Automation.AddressEnums$GeoPrecision)[pri:0, instance:payworks.rest.Automation.test.AppTest@3eb7fc54]" started-at="2020-01-20T23:51:01 EET" name="yaddressGet" data-provider="api-data-provider" finished-at="2020-01-20T23:51:02 EET" duration-ms="897" status="FAIL">
           <params>
             <param index="0">
               <value>
